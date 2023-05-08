@@ -16,7 +16,7 @@ public class NovoUsuario {
 		cpf = input.nextLine();
 
 		validarCpf = ValidarUsuario.cpfValido(cpf);
-		ValidarUsuario.MenssageCpf(validarCpf);
+		ValidarUsuario.menssageCpf(validarCpf);
 
 		boolean validarNome = true;
 		String nome = "";

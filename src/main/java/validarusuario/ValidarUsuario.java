@@ -12,7 +12,7 @@ public class ValidarUsuario {
 
 	}
 
-	public static boolean MenssageCpf(boolean validarCpf) {
+	public static boolean menssageCpf(boolean validarCpf) {
 		if (validarCpf == true) {
 			System.out.println ("CPF valido.");
 			return true;
@@ -35,14 +35,13 @@ public class ValidarUsuario {
 			System.out.println("O nome não pode ser vazio!");
 			return false;
 		} else {
-			//System.out.println();
 			return true;
 
 		}
 	}
 
 	public static boolean idadeValida(int validarIdade) {
-		if (validarIdade >= 0 || validarIdade <= 120)
+		if (validarIdade >= 0 && validarIdade <= 120)
 			return true;
 		else
 			return false;
