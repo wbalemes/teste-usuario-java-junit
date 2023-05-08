@@ -9,7 +9,7 @@ Caso informe um nome vazio, informar que o nome não pode ser vazio.
 Caso o usuário digite uma idade menor que zero ou maior que 120, informar idade
 inválida.
 
-Também criamos um teste unitário com o obejtvo de testar os metodos.
+Também criamos um teste unitário com o objetivo de testar os métodos.
 
 Validar CPF
 Validar nome
